@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [excludeSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <exclude name="smokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.reqing.SampleTest.Sample_ContactTest">
+        <methods>
+          <include name="CreateContactWithOrganizationTest"/>
+        </methods>
+      </class> <!-- com.crm.reqing.SampleTest.Sample_ContactTest -->
+      <class name="com.crm.reqing.SampleTest.Sample_ProductTest">
+        <methods>
+          <include name="CreateProductWithVendorsTest"/>
+        </methods>
+      </class> <!-- com.crm.reqing.SampleTest.Sample_ProductTest -->
+      <class name="com.crm.reqing.SampleTest.Sample_CampaignTest">
+        <methods>
+          <include name="CreateCampaignWithProductTest"/>
+        </methods>
+      </class> <!-- com.crm.reqing.SampleTest.Sample_CampaignTest -->
+      <class name="com.crm.reqing.SampleTest.Sample_OrganizationTest">
+        <methods>
+          <include name="CreateOrganizationWithMemberOfTest"/>
+        </methods>
+      </class> <!-- com.crm.reqing.SampleTest.Sample_OrganizationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [excludeSuite] -->

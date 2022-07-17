@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [smokeTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.reqing.SampleTest.Sample_ProductTest">
+        <methods>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="CreateProductWithMandatoryTest"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- com.crm.reqing.SampleTest.Sample_ProductTest -->
+      <class name="com.crm.reqing.SampleTest.Sample_CampaignTest">
+        <methods>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="createCampaignWithMandatoryFieldTest"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- com.crm.reqing.SampleTest.Sample_CampaignTest -->
+      <class name="com.crm.reqing.SampleTest.Sample_ContactTest">
+        <methods>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="CreateContactWithMandatory"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+        </methods>
+      </class> <!-- com.crm.reqing.SampleTest.Sample_ContactTest -->
+      <class name="com.crm.reqing.SampleTest.Sample_OrganizationTest">
+        <methods>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="CreateOrganizationWithMandatory"/>
+        </methods>
+      </class> <!-- com.crm.reqing.SampleTest.Sample_OrganizationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [smokeTest] -->

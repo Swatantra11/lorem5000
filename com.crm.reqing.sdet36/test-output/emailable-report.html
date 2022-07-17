@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">0</td><td class="num">259</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="6">com.crm.reqing.SampleTest.Sample_OrganizationTest</td><td><a href="#m0">configAC</a></td><td rowspan="1">1657792691894</td><td rowspan="1">9</td></tr><tr class="failedeven"><td><a href="#m1">configAM</a></td><td rowspan="2">1657792691884</td><td rowspan="2">4</td></tr><tr class="failedeven"><td><a href="#m2">configAM</a></td></tr><tr class="failedeven"><td><a href="#m3">configBC</a></td><td rowspan="1">1657792691682</td><td rowspan="1">0</td></tr><tr class="failedeven"><td><a href="#m4">configBM</a></td><td rowspan="2">1657792691747</td><td rowspan="2">57</td></tr><tr class="failedeven"><td><a href="#m5">configBM</a></td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.crm.reqing.SampleTest.Sample_OrganizationTest</td><td><a href="#m6">CreateOrganizationWithMandatory</a></td><td rowspan="1">1657792691811</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m7">CreateOrganizationWithMemberOfTest</a></td><td rowspan="1">1657792691872</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.crm.reqing.SampleTest.Sample_OrganizationTest#configAC</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;this.driver&quot; is null
+	at com.crm.reqing.GenericUtility.BaseClass.configAC(BaseClass.java:91)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.crm.reqing.SampleTest.Sample_OrganizationTest#configAM</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:65)
+	at com.crm.reqing.GenericUtility.WebDriverUtility.mouseOverOnElement(WebDriverUtility.java:145)
+	at com.crm.reqing.POMReposatory.HomePage.SignOut(HomePage.java:158)
+	at com.crm.reqing.GenericUtility.BaseClass.configAM(BaseClass.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.crm.reqing.SampleTest.Sample_OrganizationTest#configAM</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at org.openqa.selenium.interactions.Actions.&lt;init&gt;(Actions.java:65)
+	at com.crm.reqing.GenericUtility.WebDriverUtility.mouseOverOnElement(WebDriverUtility.java:145)
+	at com.crm.reqing.POMReposatory.HomePage.SignOut(HomePage.java:158)
+	at com.crm.reqing.GenericUtility.BaseClass.configAM(BaseClass.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.crm.reqing.SampleTest.Sample_OrganizationTest#configBC</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.crm.reqing.GenericUtility.BaseClass.configBC(BaseClass.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.crm.reqing.SampleTest.Sample_OrganizationTest#configBM</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
+	at com.crm.reqing.POMReposatory.LoginPage.loginToApp(LoginPage.java:49)
+	at com.crm.reqing.GenericUtility.BaseClass.configBM(BaseClass.java:77)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.crm.reqing.SampleTest.Sample_OrganizationTest#configBM</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.get(String)&quot; because &quot;this.driver&quot; is null
+	at com.crm.reqing.POMReposatory.LoginPage.loginToApp(LoginPage.java:49)
+	at com.crm.reqing.GenericUtility.BaseClass.configBM(BaseClass.java:77)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.crm.reqing.SampleTest.Sample_OrganizationTest#CreateOrganizationWithMandatory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.crm.reqing.GenericUtility.BaseClass.configBC(BaseClass.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.crm.reqing.SampleTest.Sample_OrganizationTest#CreateOrganizationWithMemberOfTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;String.equalsIgnoreCase(String)&quot; because &quot;browser&quot; is null
+	at com.crm.reqing.GenericUtility.BaseClass.configBC(BaseClass.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

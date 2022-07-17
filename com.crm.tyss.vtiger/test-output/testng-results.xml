@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="14" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-06T01:02:15 IST" name="smokeSuite" finished-at="2022-07-06T01:03:27 IST" duration-ms="72278">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateCampainsTest.CreateCampainsWithMandatoryTestthrows()[pri:0, instance:com.crm.tyss.CamapinsTest.CreateCampainsTest@53ce1329]" name="CreateCampainsWithMandatoryTestthrows" class="com.crm.tyss.CamapinsTest.CreateCampainsTest"/>
+        <method signature="CreateContactTest.CreateContactWithMandatory()[pri:0, instance:com.crm.tyss.contactTest.CreateContactTest@37d4349f]" name="CreateContactWithMandatory" class="com.crm.tyss.contactTest.CreateContactTest"/>
+        <method signature="CreateOrganizationTest.CreateCampainsWithMandatory()[pri:0, instance:com.crm.tyss.OrganizationsTest.CreateOrganizationTest@17497425]" name="CreateCampainsWithMandatory" class="com.crm.tyss.OrganizationsTest.CreateOrganizationTest"/>
+        <method signature="CreateProductTest.CreateProductWithMandatory()[pri:0, instance:com.crm.tyss.Products.CreateProductTest@f0da945]" name="CreateProductWithMandatory" class="com.crm.tyss.Products.CreateProductTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="CreateCampainsTest.CreateCampainsWithMandatoryTestthrows()[pri:0, instance:com.crm.tyss.CamapinsTest.CreateCampainsTest@53ce1329]" name="CreateCampainsWithMandatoryTestthrows" class="com.crm.tyss.CamapinsTest.CreateCampainsTest"/>
+        <method signature="CreateContactTest.CreateContactWithMandatory()[pri:0, instance:com.crm.tyss.contactTest.CreateContactTest@37d4349f]" name="CreateContactWithMandatory" class="com.crm.tyss.contactTest.CreateContactTest"/>
+        <method signature="CreateOrganizationTest.CreateCampainsWithMandatory()[pri:0, instance:com.crm.tyss.OrganizationsTest.CreateOrganizationTest@17497425]" name="CreateCampainsWithMandatory" class="com.crm.tyss.OrganizationsTest.CreateOrganizationTest"/>
+        <method signature="CreateProductTest.CreateProductWithMandatory()[pri:0, instance:com.crm.tyss.Products.CreateProductTest@f0da945]" name="CreateProductWithMandatory" class="com.crm.tyss.Products.CreateProductTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2022-07-06T01:02:15 IST" name="Test" finished-at="2022-07-06T01:03:27 IST" duration-ms="72278">
+      <class name="com.crm.tyss.Products.CreateProductTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.tyss.Products.CreateProductTest@f0da945]" started-at="2022-07-06T01:02:53 IST" name="configBC" finished-at="2022-07-06T01:02:55 IST" duration-ms="2369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.tyss.Products.CreateProductTest@f0da945]" started-at="2022-07-06T01:02:55 IST" name="configBM" finished-at="2022-07-06T01:03:00 IST" duration-ms="4658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateProductWithMandatory()[pri:0, instance:com.crm.tyss.Products.CreateProductTest@f0da945]" started-at="2022-07-06T01:03:00 IST" name="CreateProductWithMandatory" finished-at="2022-07-06T01:03:13 IST" duration-ms="12921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateProductWithMandatory -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.tyss.Products.CreateProductTest@f0da945]" started-at="2022-07-06T01:03:13 IST" name="configAM" finished-at="2022-07-06T01:03:15 IST" duration-ms="1654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.tyss.Products.CreateProductTest@f0da945]" started-at="2022-07-06T01:03:15 IST" name="configAC" finished-at="2022-07-06T01:03:15 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.tyss.Products.CreateProductTest -->
+      <class name="com.crm.tyss.OrganizationsTest.CreateOrganizationTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.tyss.OrganizationsTest.CreateOrganizationTest@17497425]" started-at="2022-07-06T01:02:41 IST" name="configBC" finished-at="2022-07-06T01:02:44 IST" duration-ms="2542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.tyss.OrganizationsTest.CreateOrganizationTest@17497425]" started-at="2022-07-06T01:02:44 IST" name="configBM" finished-at="2022-07-06T01:02:48 IST" duration-ms="4608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateCampainsWithMandatory()[pri:0, instance:com.crm.tyss.OrganizationsTest.CreateOrganizationTest@17497425]" started-at="2022-07-06T01:02:48 IST" name="CreateCampainsWithMandatory" finished-at="2022-07-06T01:02:48 IST" duration-ms="329" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null
+at com.crm.tyss.GenericUtility.ExcelUtility.getDataFromExcel(ExcelUtility.java:33)
+at com.crm.tyss.OrganizationsTest.CreateOrganizationTest.CreateCampainsWithMandatory(CreateOrganizationTest.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCampainsWithMandatory -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.tyss.OrganizationsTest.CreateOrganizationTest@17497425]" started-at="2022-07-06T01:02:49 IST" name="configAM" finished-at="2022-07-06T01:02:53 IST" duration-ms="4022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.tyss.OrganizationsTest.CreateOrganizationTest@17497425]" started-at="2022-07-06T01:02:53 IST" name="configAC" finished-at="2022-07-06T01:02:53 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.tyss.OrganizationsTest.CreateOrganizationTest -->
+      <class name="com.crm.tyss.CamapinsTest.CreateCampainsTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.tyss.CamapinsTest.CreateCampainsTest@53ce1329]" started-at="2022-07-06T01:03:15 IST" name="configBC" finished-at="2022-07-06T01:03:17 IST" duration-ms="2227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.tyss.CamapinsTest.CreateCampainsTest@53ce1329]" started-at="2022-07-06T01:03:17 IST" name="configBM" finished-at="2022-07-06T01:03:22 IST" duration-ms="4946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateCampainsWithMandatoryTestthrows()[pri:0, instance:com.crm.tyss.CamapinsTest.CreateCampainsTest@53ce1329]" started-at="2022-07-06T01:03:22 IST" name="CreateCampainsWithMandatoryTestthrows" finished-at="2022-07-06T01:03:22 IST" duration-ms="152" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Cell.getStringCellValue()" because the return value of "org.apache.poi.ss.usermodel.Row.getCell(int)" is null
+at com.crm.tyss.GenericUtility.ExcelUtility.getDataFromExcel(ExcelUtility.java:33)
+at com.crm.tyss.CamapinsTest.CreateCampainsTest.CreateCampainsWithMandatoryTestthrows(CreateCampainsTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCampainsWithMandatoryTestthrows -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.tyss.CamapinsTest.CreateCampainsTest@53ce1329]" started-at="2022-07-06T01:03:22 IST" name="configAM" finished-at="2022-07-06T01:03:27 IST" duration-ms="4271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.tyss.CamapinsTest.CreateCampainsTest@53ce1329]" started-at="2022-07-06T01:03:27 IST" name="configAC" finished-at="2022-07-06T01:03:27 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.crm.tyss.CamapinsTest.CreateCampainsTest -->
+      <class name="com.crm.tyss.contactTest.CreateContactTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.crm.tyss.contactTest.CreateContactTest@37d4349f]" started-at="2022-07-06T01:02:15 IST" name="configBS" finished-at="2022-07-06T01:02:15 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.crm.tyss.contactTest.CreateContactTest@37d4349f]" started-at="2022-07-06T01:02:15 IST" name="configBC" finished-at="2022-07-06T01:02:19 IST" duration-ms="4030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.crm.tyss.contactTest.CreateContactTest@37d4349f]" started-at="2022-07-06T01:02:19 IST" name="configBM" finished-at="2022-07-06T01:02:23 IST" duration-ms="4609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateContactWithMandatory()[pri:0, instance:com.crm.tyss.contactTest.CreateContactTest@37d4349f]" started-at="2022-07-06T01:02:23 IST" name="CreateContactWithMandatory" finished-at="2022-07-06T01:02:39 IST" duration-ms="15469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactWithMandatory -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.crm.tyss.contactTest.CreateContactTest@37d4349f]" started-at="2022-07-06T01:02:39 IST" name="configAM" finished-at="2022-07-06T01:02:40 IST" duration-ms="1719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.crm.tyss.contactTest.CreateContactTest@37d4349f]" started-at="2022-07-06T01:02:40 IST" name="configAC" finished-at="2022-07-06T01:02:41 IST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.crm.tyss.contactTest.CreateContactTest@37d4349f]" started-at="2022-07-06T01:03:27 IST" name="configAS" finished-at="2022-07-06T01:03:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.crm.tyss.contactTest.CreateContactTest -->
+    </test> <!-- Test -->
+  </suite> <!-- smokeSuite -->
+</testng-results>
